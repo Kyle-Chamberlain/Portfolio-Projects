@@ -1,9 +1,76 @@
+html, body {
+    height: 95%;
+    width: 100%;
+    margin: 0;
+}
+
 h1 {
     font-size: 24;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
 }
 
 #NavigationBar { 
     background-color: #333;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+#main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#sidebar {
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: teal;
+}
+
+#grid {
+    float: left;
+    width: 80%;
+    height: 100%;
+    background-color: violet;
+}
+
+#Footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
 }

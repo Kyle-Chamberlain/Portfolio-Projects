@@ -8,11 +8,14 @@
         <link rel="stylesheet" href="Stylesheets/index.css">
     </head>
     <body>
-        <h1>Welcome To Your Future Home</h1>
-        <script type="text/javascript" src="grid.js"></script>
-        <div id="NavigationBar" >
-            <a href="index.html">Home</a>
-           <a href="logIn.php">Log-In</a>
+        <?php include 'header.php'; ?>
+        <div id="main">
+            <div id="sidebar">
+                <center><h1>Items go here</h1>
+            </div>
+            <div id="grid">
+                <center><h1>Grid goes here</h1>
+            </div>
         </div>
         <?php include 'footer.php'; ?>
     </body>
