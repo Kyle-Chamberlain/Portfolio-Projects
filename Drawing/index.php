@@ -15,6 +15,5 @@
            <a href="logIn.php">Log-In</a>
         </div>
         <?php include 'footer.php'; ?>
-        this is the replacement line
     </body>
 </html>
