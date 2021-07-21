@@ -14,5 +14,6 @@
             <a href="index.html">Home</a>
            <a href="logIn.php">Log-In</a>
         </div>
+        <?php include 'footer.php'; ?>
     </body>
 </html>

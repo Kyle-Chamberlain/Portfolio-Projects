@@ -7,6 +7,8 @@
         <title>Document</title>
     </head>
     <body>
+        <div id="footer">
         <p>Kyle and Noah</p>
+        </div>
     </body>
 </html>
